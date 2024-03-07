@@ -30,3 +30,9 @@ ex: vamos criar um pedido(dados do pedido = input)
 pedido criado(dados de retorno do pedido output) 
 vamos simplificar o raciocinio ao criar um software sempre pensando em input e output.
 aula 256
+
+DTO: bom o data transfer object ajuda a trafegar os dados entre os limites arquiteturais, o dto é um objeto anemico ele não possui comportamento, ele não tem uma regra de negocios em si, ele é somente dados.Geralmente cada use case possui um dto diferente aula 257
+
+Presenters: Bom os presenters são objetos de tranformação, ele tranforma os dados do DTO para o formato correto de entrega de resultados, os formatos de entrega são os seguintes, json, xml,csv, protobuf, se quisermos determinar com qual tipo vamos retornar nosso objeto podemos utilizar presenters. aula 258
+
+Entities:Bom o entitie é a identidade de um um objeto, por exemplo as entities são as entidades de um sistema
