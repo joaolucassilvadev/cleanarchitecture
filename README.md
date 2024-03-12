@@ -36,3 +36,8 @@ DTO: bom o data transfer object ajuda a trafegar os dados entre os limites arqui
 Presenters: Bom os presenters são objetos de tranformação, ele tranforma os dados do DTO para o formato correto de entrega de resultados, os formatos de entrega são os seguintes, json, xml,csv, protobuf, se quisermos determinar com qual tipo vamos retornar nosso objeto podemos utilizar presenters. aula 258
 
 Entities:Bom o entitie é a identidade de um um objeto, por exemplo as entities são as entidades de um sistema
+
+NOSSO OBJETIVO:Bom nossa regra de negocio é pegar o preço do produto mais a taxa e calcular o preço final, porém quando rodamos o projeto em um unico binario ele vai funcionar como um web service e subir um servidor graphql e um grpc
+COMEÇANDO PROJETO: bom primeiramente vamos destrinchar as pastas e entender o que cada uma faz. primeiramente começamos com a pasta internal: é onde temos nosso projeto, é onde fica o coração das nossas implementações. Dentro da pasta internal existe a pasta entity,event, infra e usecase. 
+Vamos começar com o entity a qual possui nossa regra de negocio, dentro da nossa pasta entity existe o order.go, bom o order.go tem nossa regra de negocios.
+
